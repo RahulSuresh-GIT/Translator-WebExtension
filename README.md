@@ -1,4 +1,4 @@
- &middot; # [Translator-WebExtension](https://addons.mozilla.org/en-US/firefox/addon/translatemegoogle) &middot; 
+ &middot; [Translator-WebExtension](https://addons.mozilla.org/en-US/firefox/addon/translatemegoogle) &middot; 
 
  A Mozilla Firefox Web-Extension
 
