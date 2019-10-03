@@ -53,6 +53,12 @@ browser.contextMenus.create({
   contexts: ["selection"]
 });
 
+browser.contextMenus.create({
+  id: "Malayalam",
+  title: "Malayalam",
+  contexts: ["selection"]
+});
+
 
 
 browser.contextMenus.create({
@@ -97,6 +103,12 @@ browser.contextMenus.create({
   title: "Hindi",
   contexts: ["selection"]
 });
+browser.contextMenus.create({
+  id: "Malayalam",
+  title: "Malayalam",
+  contexts: ["selection"]
+});
+
 browser.contextMenus.create({
   id: "Japanese",
   title: "Japanese",
@@ -175,6 +187,8 @@ if(LangText == 'English'){
                 return 'https://translate.google.co.in/#auto/de/';
         } else if(LangText == 'Hindi'){
                 return 'https://translate.google.co.in/#auto/hi/';
+	else if(LangText == 'Malayalam'){
+                return 'https://translate.google.co.in/#auto/ml/';
         } else if(LangText == 'Japanese'){
                 return 'https://translate.google.co.in/#auto/ja/';
         } else if(LangText == 'Kazakh'){
